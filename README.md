@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-and-flexbox-bw5zlpYjrV)
+- [Solution URL](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-using-javascript-RRtKrAWT5z)
 - [Live Site URL](https://moonlit-biscochitos-c99e7f.netlify.app/)
 
 ### Built with
