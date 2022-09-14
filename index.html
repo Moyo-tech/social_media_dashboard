@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <title>Social Media Dashboard</title>
+  </head>
+  <body data-theme="light">
+    <header>
+      <div class="header-container">
+        <div>
+          <h1 class="heading">Social Media Dashboard</h1>
+          <p class="no-followers">Total Followers: 23,004</p>
+          <hr class="breakline" />
+        </div>
+
+        <!-- TOGGLE BUTTON -->
+        <div class="theme-switch">
+          <p class="mode-type">
+            <span class="change-mode-text"> Light </span>Mode
+          </p>
+
+          <input type="checkbox" id="switch" /><label for="switch"
+            >Toggle</label
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="flexbox">
+        <div class="social social--1">
+          <div class="tag-name">
+            <i class="fa-brands fa-square-facebook"></i>
+            <span class="username">@nathanf </span>
+          </div>
+          <h2>1987</h2>
+          <p class="followers">Followers</p>
+          <div class="count-today-container">
+            <i class="fa-solid fa-caret-up"></i>
+            <span class="count-today">12 Today</span>
+          </div>
+        </div>
+
+        <div class="social social--2">
+          <div class="tag-name">
+            <i class="fa-brands fa-twitter"></i>
+            <span class="username">@nathanf </span>
+          </div>
+          <h2>1044</h2>
+          <p class="followers">Followers</p>
+          <div class="count-today-container">
+            <i class="fa-solid fa-caret-up"></i>
+            <span class="count-today">99 Today</span>
+          </div>
+        </div>
+
+        <div class="social social--3">
+          <div class="tag-name">
+            <i class="fa-brands fa-instagram"></i>
+            <span class="username">@realnathanf </span>
+          </div>
+          <h2>11k</h2>
+          <p class="followers">Followers</p>
+          <div class="count-today-container">
+            <i class="fa-solid fa-caret-up"></i>
+            <span class="count-today">1099 Today</span>
+          </div>
+        </div>
+
+        <div class="social social--4">
+          <div class="tag-name">
+            <i class="fa-brands fa-youtube"></i>
+            <span class="username">Nathan F.</span>
+          </div>
+          <h2>8239</h2>
+          <p class="followers">Subscribers</p>
+          <div class="count-today-container">
+            <i class="fa-solid fa-caret-down"></i>
+            <span class="count-today count-today-youtube">144 Today</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DATA SECTION -->
+      <section>
+        <div class="text-grid">
+          <h3>Overview - Today</h3>
+        </div>
+
+        <div class="grid">
+          <div class="box">
+            <p class="data-type">Page Views</p>
+            <i class="fa-brands fa-square-facebook fa-icon-left"></i>
+            <p class="data">87</p>
+            <div class="count">
+              <i class="fa-solid fa-caret-up fa-caret-left"></i>
+              <span class="count-green">3%</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <p class="data-type">Likes</p>
+            <i class="fa-brands fa-square-facebook fa-icon-left"></i>
+            <p class="data">52</p>
+            <div class="count">
+              <i class="fa-solid fa-caret-down fa-caret-left"></i>
+              <span class="count-red">2%</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <p class="data-type">Likes</p>
+            <i class="fa-brands fa-instagram fa-icon-left"></i>
+            <p class="data">5462</p>
+            <div class="count">
+              <i class="fa-solid fa-caret-up fa-caret-left"></i>
+              <span class="count-green">2257%</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <p class="data-type">Profile Views</p>
+            <i class="fa-brands fa-instagram fa-icon-left"></i>
+            <p class="data">52k</p>
+            <div class="count">
+              <i class="fa-solid fa-caret-up fa-caret-left"></i>
+              <span class="count-green">1375%</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <p class="data-type">Retweets</p>
+            <i class="fa-brands fa-twitter fa-icon-left"></i>
+            <p class="data">117</p>
+            <div class="count">
+              <i class="fa-solid fa-caret-up fa-caret-left"></i>
+              <span class="count-green">303%</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <p class="data-type">Likes</p>
+            <i class="fa-brands fa-twitter fa-icon-left"></i>
+            <p class="data">507</p>
+            <div class="count">
+              <i class="fa-solid fa-caret-up fa-caret-left"></i>
+              <span class="count-green">553%</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <p class="data-type">Likes</p>
+            <i class="fa-brands fa-youtube fa-icon-left"></i>
+            <p class="data">107</p>
+            <div class="count">
+              <i class="fa-solid fa-caret-down fa-caret-left"></i>
+              <span class="count-red">19%</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <p class="data-type">Total Views</p>
+            <i class="fa-brands fa-youtube fa-icon-left"></i>
+            <p class="data">1407</p>
+            <div class="count">
+              <i class="fa-solid fa-caret-down fa-caret-left"></i>
+              <span class="count-red">12%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.linkedin.com/in/moyosore-weke-4707441b3/"
+          target="_blank">Moyosore Weke</a
+        >.
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
