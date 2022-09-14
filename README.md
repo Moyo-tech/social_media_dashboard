@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-and-flexbox-bw5zlpYjrV)
-- [Live Site URL](https://neon-cassata-ef3438.netlify.app/)
+- [Live Site URL](https://moonlit-biscochitos-c99e7f.netlify.app/)
 
 ### Built with
 
